@@ -2,4 +2,4 @@
 ## 文档编译工具
 - [typora](https://typora.io/)
 - VScode中的  [mermaid preview 美人鱼](https://mermaidjs.github.io/)
-- webstorm 中的 markdown navigator
+- webstorm 中的 markdown navigator [markdown](http://blog.csdn.net/witnessai1/article/details/52551362)
