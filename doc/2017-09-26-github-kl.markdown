@@ -1,5 +1,10 @@
 
-## 再自己的github中如何创建项目
+## 如何克隆项目
+- 首先打开命令窗口
+- 命令：cd 项目目录
+- 命令：git clone 项目的git地址
+
+## 如何在自己的github中上传项目
 - 这里以webStorm为例进行介绍
 - 新建一个webstorm项目
 - 操作：VCS->Import into Version Control->Share Project on Github->输入自己的用户名和密码->test->
