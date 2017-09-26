@@ -2,43 +2,9 @@
 
 # 孔莉项目交接的内容
 
-## 1、markdown相关内容
+https://github.com/kongli1/workHandoverContent.git
 
-### 安装markdown navigator插件
-- 在webstorm中安装插件-markdown navigator
-
-### 创建markdown文件
-- 先创建markdown文件的模板[2016-07-21-knowledgepoint-document-2016](2016-07-21-knowledgepoint-document-2016.markdown)
-  -  在webstorm中的操作：File->NEW->Edit File Template->ADD file
-  -  给模板文件起个名字：如klmarkdown
-  -  文件的扩展名为：.markdown
-- .markdown模板的内容
-```
----
-layout : post  
-title: ""  
-Date : ${DATE}  
-Author : ${USER}  
-categories : jekyll  
----
-```
-- 创建markdown文件
-  - 在webstorm中的操作：File->NEW->选择klMarkdown(自己创建的模板的名称)-输入文件名称-点击OK
-
-### markdown的破解-苹果系统
-- 在webstorm中的插件目录如下：
-  - ./Application/Support Application/./WebStorm2017.2/bin
-- 将已破解好的idea-multimarkdown.jar文件放在桌面
-  - 破解参见文档-《Markdown Navigator插件破解教程》
-- 将破解的idea-multimarkdown.jar文件进行替换
-  - 命令：cp ~/DeskTop/idea-multimarkdown.jar ./
-- 自动生成表格、生成目录等功能就有了
-  - [TOC]:#  在markdown中添加目录
-
-
-### markdown的基本语法
-[markdown的基本语法](http://blog.csdn.net/witnessai1/article/details/52551362)
-
+## 1、管理的文档项目
 
 ### yadadev.github.io中的文档介绍
 - 2016年总结文档：    2016-07-21-knowledgepoint-document-2016.markdown
@@ -58,7 +24,7 @@ categories : jekyll
 - 优惠券项目进度报告-整理至2017年9月22日:2017-09-22-coupon-report.markdown
   - **每天都要进行整理和提交，并发送到slack通知大家进行查看**
 - 2017年支出记录:        2017-09-22-yada-expense-record-2017.markdown
-  - 主要记录聚餐、KTV、酒水的消费等记录
+  - 主要记录聚餐、KTV、酒d水的消费等记录
 
 
 
