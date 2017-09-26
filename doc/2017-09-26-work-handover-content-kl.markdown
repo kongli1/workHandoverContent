@@ -1,0 +1,136 @@
+
+
+# 孔莉项目交接的内容
+
+## 1、markdown相关内容
+
+### 安装markdown navigator插件
+- 在webstorm中安装插件-markdown navigator
+
+### 创建markdown文件
+- 先创建markdown文件的模板[2016-07-21-knowledgepoint-document-2016](2016-07-21-knowledgepoint-document-2016.markdown)
+  -  在webstorm中的操作：File->NEW->Edit File Template->ADD file
+  -  给模板文件起个名字：如klmarkdown
+  -  文件的扩展名为：.markdown
+- .markdown模板的内容
+```
+---
+layout : post  
+title: ""  
+Date : ${DATE}  
+Author : ${USER}  
+categories : jekyll  
+---
+```
+- 创建markdown文件
+  - 在webstorm中的操作：File->NEW->选择klMarkdown(自己创建的模板的名称)-输入文件名称-点击OK
+
+### markdown的破解-苹果系统
+- 在webstorm中的插件目录如下：
+  - ./Application/Support Application/./WebStorm2017.2/bin
+- 将已破解好的idea-multimarkdown.jar文件放在桌面
+  - 破解参见文档-《Markdown Navigator插件破解教程》
+- 将破解的idea-multimarkdown.jar文件进行替换
+  - 命令：cp ~/DeskTop/idea-multimarkdown.jar ./
+- 自动生成表格、生成目录等功能就有了
+  - [TOC]:#  在markdown中添加目录
+
+
+### markdown的基本语法
+[markdown的基本语法](http://blog.csdn.net/witnessai1/article/details/52551362)
+
+
+### yadadev.github.io中的文档介绍
+- 2016年总结文档：    2016-07-21-knowledgepoint-document-2016.markdown
+- 2016年入账记录:     2016-09-01-yada-fine-record-2016.markdown
+- web_pay支付需求讨论:2016-10-10-web-pay-document.markdown
+- 2016年支出记录:     2016-12-01-yada-expense-record-2016.markdown
+- Http跨域访问介绍和规范:2017-01-22-cross-domain-introduce-standard.markdown
+- 奖金分配方案:          2017-02-09-bonus-llot-2017.markdown
+- 优惠券交易平台需求:     2017-02-15-couponsTrade-document.markdown
+- 2017年总结文档:        2017-02-17-knowledgepoint-document-2017.markdown
+  - **针对崔哥讲解过的知识点记录在此**
+- 2017年入账记录:        2017-02-20-yada-fine-record-2017.markdown
+  - 主要记录罚款内容
+- 开发服务端和客户端一些内容:2017-03-08-server-client-content.markdown
+- 椭圆曲线文档:           2017-04-20-ECC.markdown
+- RSA算法:               2017-04-20-RSA.markdown
+- 优惠券项目进度报告-整理至2017年9月22日:2017-09-22-coupon-report.markdown
+  - **每天都要进行整理和提交，并发送到slack通知大家进行查看**
+- 2017年支出记录:        2017-09-22-yada-expense-record-2017.markdown
+  - 主要记录聚餐、KTV、酒水的消费等记录
+
+
+
+###  以公司名义申请的账户文档
+
+- git地址：https://github.com/yadadev/accountManager.git
+
+
+## 2、优惠券的相关内容
+
+### 关注各家银行的售券情况，统计券量
+- 招商银行（五折券、代金券）
+- 交通银行-（普通代金券、6折券）
+  - 买单吧客户端-普通代金券：首页-享美食-优惠券
+  - 买单吧客户端-6折券：首页-大牌限时购
+- 中国银行-（五折券、6折券）
+  - 五折券：缤纷生活客户端-首页-优惠券
+  - 6折券：缤纷生活客户端-首页-优惠券，17年9月21日新增加的
+- 中国银行-6折券五折抢抢券-电子券
+  - 微信关注公众号：中国银行北京分行
+- 浦发银行-五折券
+  - 浦大喜奔-小浦美食
+- 闲鱼转售券量
+- 转转转售量
+- 淘宝转售券量
+  - 关注两大专卖券的店铺
+    - 大罗小马代购
+    - 吃喝玩乐有优惠
+- 百姓网转售券量
+
+
+### 关注目前有哪些新的券源、新的转售平台
+
+### 对比团购网如美团，和银行的优惠程度对比情况
+
+### 并完成优惠券统计分析报告
+- 整理优惠券统计分析报告
+- 每次报告说一下自己的感受-关于券源和转售券
+- 每周周四进行汇报
+- 崔哥关注券的每月、每年产生的交易金额
+- 黄总关心券来源，担心没有券可卖
+
+## 3、项目相关内容
+- 目前项目-优惠券项目
+  - 根据会议内容或者小组内部商量决定，及时调整相关文档，并通知大家
+  - 项目相关文档
+    - 需求、
+    - 字典表、
+    - 测试项目问题文档、
+    - 子系统文档、
+    - README文档、
+    - 风险分析文档、
+    - 会议记录文档、
+    - 验证信息提示文档、
+    - 优化项目文档、
+    - 架构设计文档、
+    - 帮助中心文档、
+    - 状态表文档、
+    - 动态和固定筛选优惠券文档、
+    - 验证信息提示文档
+    - 当前剩余工作文档
+  - 测试项目
+    - 根据测出项目问题，给大家建立任务，并进行任务分配
+    - 每天调整当前剩余工作文档.markdown:在此记录已完成的内容、未完成的内容、还有将来要完成的内容等
+
+
+## 4、办公室的行政工作
+- 不定期的组织本部门人员聚餐
+  - 一般一个月组织一次，提前买好酒水
+  - 提前一周就订好，至少提前3天跟相关人员发通知，尤其是领导问他们有时间参加活动吗？
+- 每个月购买办公室零食，300元
+- 对软件研发部门的一些小杂事进行管理
+  - 考试报名、打印准考生、考试日期
+  - 办公用品、打扫卫生用品的缺少，及时跟助理沟通进行购买
+  - 提醒崔哥跟他相关的一些事情，比如什么时候开会啊
