@@ -3,10 +3,11 @@
 - typora
   - [typora](https://typora.io/)
   - 特点：语法输入完后就见到效果，非常方便
+  - 目前是编译文档最好的工具
 - mermaid preview
   - VScode中的[mermaid preview 美人鱼](https://mermaidjs.github.io/)
 - markdown navigator
   - webstorm 中的 markdown navigator [markdown](http://blog.csdn.net/witnessai1/article/details/52551362)
-- githubbook:
-  - [githubbook](https://www.gitbook.com/)
+- gitbook:
+  - [gitbook](https://www.gitbook.com/)
 
