@@ -4,7 +4,7 @@
 - 在webstorm中安装插件-markdown navigator
 
 ### 创建markdown文件
-- 先创建markdown文件的模板[2016-07-21-knowledgepoint-document-2016](2016-07-21-knowledgepoint-document-2016.markdown)
+- 先创建markdown文件的模板
   -  在webstorm中的操作：File->NEW->Edit File Template->ADD file
   -  给模板文件起个名字：如klmarkdown
   -  文件的扩展名为：.markdown
@@ -20,7 +20,7 @@ categories : jekyll
 ```
 - 创建markdown文件
   - 在webstorm中的操作：File->NEW->选择klMarkdown(自己创建的模板的名称)-输入文件名称-点击OK
-  - 文件名称：格式如：2017-01-01-doc-name-kl.markdown
+  - 文件名称：格式如：2017-01-01-docName-kl.markdown
 
 ### markdown的破解-苹果系统
 - 在webstorm中的插件目录如下：

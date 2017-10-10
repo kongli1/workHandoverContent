@@ -2,7 +2,6 @@
 
 # 孔莉项目交接的内容
 
-https://github.com/kongli1/workHandoverContent.git
 
 ## 1、管理的文档项目
 
@@ -24,7 +23,7 @@ https://github.com/kongli1/workHandoverContent.git
 - 优惠券项目进度报告-整理至2017年9月22日:2017-09-22-coupon-report.markdown
   - **每天都要进行整理和提交，并发送到slack通知大家进行查看**
 - 2017年支出记录:        2017-09-22-yada-expense-record-2017.markdown
-  - 主要记录聚餐、KTV、酒d水的消费等记录
+  - 主要记录聚餐、KTV、酒水的消费等记录
 
 
 
