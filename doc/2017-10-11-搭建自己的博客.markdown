@@ -1,0 +1,7 @@
+
+
+# 用Jekyll搭建的Github Pages个人博客
+
+- 描述：GitHub Pages 是通过github网站托管和发布的公开网页。
+- [简书](http://www.jianshu.com/p/88c9e72978b4)
+- [github pages](https://pages.github.com/)
