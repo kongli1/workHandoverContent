@@ -12,7 +12,7 @@
 - 在webstorm中添加插件markdown navigator [markdown语法](http://blog.csdn.net/witnessai1/article/details/52551362)
 
 ### gitbook:
-- [gitbook](https://www.gitbook.com/)
+- [gitbook登录网址](https://www.gitbook.com/)
 - 特点：
   - 左侧是文档的目录，右侧为文档的内容
   - 书写和编辑文档有两种方式：导入文档、创建文档
