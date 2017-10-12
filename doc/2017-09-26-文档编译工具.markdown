@@ -1,16 +1,19 @@
 
 ## 文档编译工具
-- typora
-  - [typora](https://typora.io/)
-  - 特点：语法输入完后就见到效果，非常方便
-  - 目前是编译文档最好的工具
-- mermaid preview
-  - VScode中的[mermaid preview 美人鱼](https://mermaidjs.github.io/)
-- markdown navigator
-  - webstorm 中的 markdown navigator [markdown](http://blog.csdn.net/witnessai1/article/details/52551362)
-- gitbook:
-  - [gitbook](https://www.gitbook.com/)
-  - 特点：
-    - 左侧是文档的目录，右侧为文档的内容
-    - 书写和编辑文档有两种方式：导入文档、创建文档
+### typora
+- [typora](https://typora.io/)
+- 特点：语法输入完后就见到效果，非常方便
+- 目前是编译文档最好的工具
+
+### mermaid preview
+- 在VScode中添加插件[mermaid preview 美人鱼语法](https://mermaidjs.github.io/)
+
+### markdown navigator
+- 在webstorm中添加插件markdown navigator [markdown语法](http://blog.csdn.net/witnessai1/article/details/52551362)
+
+### gitbook:
+- [gitbook](https://www.gitbook.com/)
+- 特点：
+  - 左侧是文档的目录，右侧为文档的内容
+  - 书写和编辑文档有两种方式：导入文档、创建文档
 
