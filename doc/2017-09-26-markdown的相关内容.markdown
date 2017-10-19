@@ -32,9 +32,20 @@ categories : jekyll
 - 自动生成表格、生成目录等功能就有了
   - [TOC]:#  在markdown中添加目录
 
+### 1.4 markdown的破解-Linux系统
+- 查找webstorm所在的安装目录
+  - sudo su 切换到root用户 根目录为home/kongli
+  - ls -a 查看用户文件夹下的所有文件和文件夹，包括隐藏的文件和文件夹
+  - 就可以看到.WebStorm文件夹了
+  - idea-multimarkdown.jar包所在路径：
+    - .WebStorm2017.2\config\plugins\idea-multimarkdown\lib\idea-multimarkdown.jar
+  - 替换该包即可
+    - 命令：cp ~/idea-multimarkdown.jar ./
+    - 命令：ls -l查看文件的所有信息
 
-### 1.4 markdown的基本语法
+
+### 1.5 markdown的基本语法
 [markdown的基本语法](http://blog.csdn.net/witnessai1/article/details/52551362)
 
-### 1.5 jekyll
+### 1.6 jekyll
 - 简单静态博客网站生成器
