@@ -12,6 +12,19 @@
 - [水平分割线](#水平分割线)
 - [Mathematics 函数](#Mathematics函数)
 
+# 和标准Markdown的不同
+
+## 换行
+标准MD要在一行的最后加两个空格符才表示换行，否则是不换行的。但是GFM则没有此要求。
+第一行（最后无两个空格）
+第二行
+
+## 自动URL
+一个小优化，如果你直接在GFM中写一个URL链接文本，那么也会自动生成URL，同时文字也显示为该链接本身。
+例如，https://github.com
+
+
+
 
 # typora For Markdown语法
 Typora是一个功能强大的Markdown编辑器，使用GFM风格（即大名鼎鼎的）
