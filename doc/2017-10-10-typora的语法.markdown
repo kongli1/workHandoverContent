@@ -14,10 +14,10 @@
 
 
 # typora For Markdown语法
-Typora是一个功能强大的Markdown编辑器，使用GFM风格（即大名鼎鼎的），
-Typora目前支持Mac OS和Windows，Linux。
-Typora可以插入数学表达式，插入表情，表格，支持标准的Markdown语法，可以使用标注....，功能强大，
-还可以导出PDF文件和HTLM文件。
+Typora是一个功能强大的Markdown编辑器，使用GFM风格（即大名鼎鼎的）
+Typora目前支持Mac OS和Windows，Linux
+Typora可以插入数学表达式，插入表情，表格，支持标准的Markdown语法，可以使用标注....，功能强大
+还可以导出PDF文件和HTLM文件
 
 
 ## 目录列表(TOC)
