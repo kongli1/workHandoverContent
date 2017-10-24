@@ -345,14 +345,12 @@ _   底线
 ## 13 流程图
 **代码：**
 ```flow
-st=>start: Start:>https://www.zybuluo.com
-io=>inputoutput: verification
+st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
-sub=>subroutine: Your Subroutine
 e=>end
-st->io->op->cond
+st->op->cond
 cond(yes)->e
-cond(no)->sub->io
+cond(no)->op
 ```
 
