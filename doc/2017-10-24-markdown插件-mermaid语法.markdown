@@ -1,7 +1,15 @@
 
+[TOC]: #
 
+# Table of Contents
+- [1 绘制流程图Flowchart](#1-绘制流程图flowchart)
+    - [1.1 流程图的定义开始Graph](#11-流程图的定义开始graph)
+    - [1.2 流程图的方向](#12-流程图的方向)
+    - [1.3 节点](#13-节点)
+    - [1.4 连线](#14-连线)
+- [序列图](#序列图)
+- [甘特图](#甘特图)
 
-# markdown插件mermaid
 
 ## 1 绘制流程图Flowchart
 markdown中使用mermaid插件来进行画图
