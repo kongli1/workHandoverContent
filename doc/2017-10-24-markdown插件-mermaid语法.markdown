@@ -7,7 +7,7 @@
 markdown中使用mermaid插件来进行画图
 
 ### 1.1 流程图的定义开始Graph
-关键字graph表示一个流程图的开始，同时需要指定该图的方向
+关键字graph表示一个流程图的开始，同时需要指定该图的方向  
 如下：一个从左到右的流程图
 ```mermaid
 graph LR;
@@ -15,22 +15,22 @@ graph LR;
 ```
 ### 1.2 流程图的方向
 
-TB（top bottom）表示从上到下
-BT（bottom top）表示从下到上
-RL（right left）表示从左到右
-LR（left right）表示从右到左
-TD与TB一样表示从上到下
+1. TB（top bottom）表示从上到下
+2. BT（bottom top）表示从下到上
+3. RL（right left）表示从左到右
+4. LR（left right）表示从右到左
+5. TD与TB一样表示从上到下
 
 ### 1.3 节点
 大写字母表示节点，name表示它的名字，如下图：  
 默认节点的A，同时表示该节点和它的名字
 
-默认节点 A  
-文本节点 B[B name]  
-圆角节点 C(C name)  
-圆形节点 D((D name))  
-非对称节点 E>Ename]  
-菱形节点 F{F name}  
+1. 默认节点 A
+2. 文本节点 B[B name]
+3. 圆角节点 C(C name)
+4. 圆形节点 D((D name))
+5. 非对称节点 E>Ename]
+6. 菱形节点 F{F name}
 
 ```mermaid
 graph TB
