@@ -1,5 +1,5 @@
 
-[TOC]:#
+[TOC]: #
 
 # Table of Contents
 - [1 目录](#1-目录)
@@ -21,8 +21,6 @@
     - [10.3  用六个`包裹多行代码](#103--用六个包裹多行代码)
     - [10.4 HTML原始码](#104-html原始码)
 - [11 反斜杠](#11-反斜杠)
-- [12 锚点](#12-锚点)
-- [13 流程图](#13-流程图)
 
 
 # markdown的基本语法文档
@@ -333,24 +331,4 @@ _   底线
 !   惊叹号
 ```
 
-
-## 12 锚点
-网页中，锚点其实就是页内超链接
-**代码**
-```
-1. ## 0. 目录{#index}
-2. 跳转到[目录](#index)
-```
-
-## 13 流程图
-**代码：**
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
 
