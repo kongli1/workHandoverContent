@@ -25,8 +25,8 @@ graph LR;
 
 1. TB（top bottom）表示从上到下
 2. BT（bottom top）表示从下到上
-3. RL（right left）表示从左到右
-4. LR（left right）表示从右到左
+3. RL（right left）表示从右到左
+4. LR（left right）表示从左到右
 5. TD与TB一样表示从上到下
 
 ### 1.3 节点
@@ -97,6 +97,37 @@ graph TB
 
 ```
 
-## 序列图
 
-## 甘特图
+
+## 序列图 sequenceDiagram
+```mermaid
+sequenceDiagram
+A->> B: Query
+B->> C: Forward query
+Note right of C: Thinking...
+C->> B: Response
+B->> A: Forward response
+```
+
+
+
+## 甘特图 ganttDiagram
+```mermaid
+ganttDiagram
+dateFormat  YYYY-MM-DD
+title Shop项目交付计划
+
+section 里程碑 0.1 
+数据库设计          :active,    p1, 2016-08-15, 3d
+详细设计            :           p2, after p1, 2d
+
+section 里程碑 0.2
+后端开发            :           p3, 2016-08-22, 20d
+前端开发            :           p4, 2016-08-22, 15d
+
+section 里程碑 0.3
+功能测试            :       p6, after p3, 5d
+上线               :       p7, after p6, 2d
+交付               :       p8, afterp7, 2d
+```
+
