@@ -112,7 +112,18 @@ graph TB
 ## 2序列图 sequenceDiagram
 
 ### 2.1 语法-参与者
-描述：参与者可以隐式的定义此页上的第一个示例。可以指定参与者按出现的顺序执行以下操作
+**描述：**  
+参与者可以隐式的定义此页上的第一个示例。可以指定参与者按出现的顺序执行以下操作  
+
+**代码：** 
+```
+sequenceDiagram
+    participant John
+    participant Alice
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+```
+**展示效果：** 
 
 ```mermaid
 sequenceDiagram
@@ -123,7 +134,18 @@ sequenceDiagram
 ```
 
 ### 2.2 语法-别名
-描述：参与者可以有一个方便的标识符和一个描述性的标签
+**描述：**   
+参与者可以有一个方便的标识符和一个描述性的标签  
+
+** 代码：** 
+```
+    participant A as Alice
+    participant J as John
+    A->>J: Hello John, how are you?
+    J->>A: Great!
+```
+
+**展示效果：** 
 ```mermaid
 sequenceDiagram
     participant A as Alice
@@ -133,7 +155,8 @@ sequenceDiagram
 ```
 
 ### 2.3 语法-消息的类型
-描述：消息可以有两种显示虚线或带有虚线
+**描述：**   
+消息可以有两种显示虚线或带有虚线
 
 | 类型  | 描述                      |
 |:------|:--------------------------|
@@ -145,9 +168,17 @@ sequenceDiagram
 | --x   | 虚线与十字架在结束 （异步） |
 
 ### 2.4 语法-激活
-可以激活和停用参与者
-
-例子：
+**描述1：**  
+可以激活和停用参与者  
+**代码：** 
+```
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    activate John
+    John-->>Alice: Great!
+    deactivate John
+```
+**展示效果：** 
 ```mermaid
 sequenceDiagram
     Alice->>John: Hello John, how are you?
@@ -155,14 +186,33 @@ sequenceDiagram
     John-->>Alice: Great!
     deactivate John
 ```
+
+** 描述2：** 
 也是一个快捷方式符号通过附加/后缀为消息箭头：+ - 
+**代码：** 
+```
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    John-->>-Alice: Great!
+```
+**展示效果：** 
 ```mermaid
 sequenceDiagram
     Alice->>+John: Hello John, how are you?
     John-->>-Alice: Great!
 ```
 
+**描述3：**   
 激活可堆叠为相同的参与者
+**代码：** 
+```
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+```
+**展示效果：** 
 ```mermaid
 sequenceDiagram
     Alice->>+John: Hello John, how are you?
@@ -173,8 +223,9 @@ sequenceDiagram
 
 
 ### 2.5 语法-备用
+**描述：**   
 它是可以来向序列图添加注释。 
-请参阅下面的示例：
+**请参阅下面的示例：**
 
 ```mermaid
 sequenceDiagram
@@ -190,13 +241,14 @@ sequenceDiagram
 ```
 
 ### 2.6 语法-循环
-描述：它可以做序列图中的快速循环
+**描述：**  
+它可以做序列图中的快速循环
 ```
 loop Loop text
 ... statements ...
 end
 ```
-请参阅下面的示例：
+**请参阅下面的示例：**
 ```mermaid
 sequenceDiagram
     Alice->John: Hello John, how are you?
@@ -205,6 +257,7 @@ sequenceDiagram
     end
 ```
 ### 2.7 语法-Alt键
+**描述：**  
 它可以表示序列图中的备用路径，这是通过如下符号：
 ```
 alt Describing text
@@ -220,7 +273,7 @@ opt Describing text
 end
 ```
 
-请参阅下面的示例：
+**请参阅下面的示例：**
 ```mermaid
 sequenceDiagram
     Alice->>Bob: Hello Bob, how are you?
